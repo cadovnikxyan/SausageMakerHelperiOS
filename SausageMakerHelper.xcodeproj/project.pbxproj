@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8AB434EE23A4295600EAA247 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB434ED23A4295600EAA247 /* AppDelegate.swift */; };
+		8AB434F023A4295600EAA247 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB434EF23A4295600EAA247 /* SceneDelegate.swift */; };
+		8AB434F323A4295600EAA247 /* SausageMakerHelper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8AB434F123A4295600EAA247 /* SausageMakerHelper.xcdatamodeld */; };
+		8AB434F523A4295600EAA247 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB434F423A4295600EAA247 /* ContentView.swift */; };
+		8AB434F723A4295800EAA247 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AB434F623A4295800EAA247 /* Assets.xcassets */; };
+		8AB434FA23A4295800EAA247 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AB434F923A4295800EAA247 /* Preview Assets.xcassets */; };
+		8AB434FD23A4295800EAA247 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AB434FB23A4295800EAA247 /* LaunchScreen.storyboard */; };
+		8AB4350823A4295800EAA247 /* SausageMakerHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB4350723A4295800EAA247 /* SausageMakerHelperTests.swift */; };
+		8AB4351323A4295800EAA247 /* SausageMakerHelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB4351223A4295800EAA247 /* SausageMakerHelperUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8AB4350423A4295800EAA247 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AB434E223A4295600EAA247 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AB434E923A4295600EAA247;
+			remoteInfo = SausageMakerHelper;
+		};
+		8AB4350F23A4295800EAA247 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AB434E223A4295600EAA247 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AB434E923A4295600EAA247;
+			remoteInfo = SausageMakerHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8AB434EA23A4295600EAA247 /* SausageMakerHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SausageMakerHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AB434ED23A4295600EAA247 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8AB434EF23A4295600EAA247 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8AB434F223A4295600EAA247 /* SausageMakerHelper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SausageMakerHelper.xcdatamodel; sourceTree = "<group>"; };
+		8AB434F423A4295600EAA247 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8AB434F623A4295800EAA247 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8AB434F923A4295800EAA247 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8AB434FC23A4295800EAA247 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8AB434FE23A4295800EAA247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AB4350323A4295800EAA247 /* SausageMakerHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SausageMakerHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AB4350723A4295800EAA247 /* SausageMakerHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SausageMakerHelperTests.swift; sourceTree = "<group>"; };
+		8AB4350923A4295800EAA247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AB4350E23A4295800EAA247 /* SausageMakerHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SausageMakerHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AB4351223A4295800EAA247 /* SausageMakerHelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SausageMakerHelperUITests.swift; sourceTree = "<group>"; };
+		8AB4351423A4295800EAA247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AB434E723A4295600EAA247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AB4350023A4295800EAA247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AB4350B23A4295800EAA247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8AB434E123A4295600EAA247 = {
+			isa = PBXGroup;
+			children = (
+				8AB434EC23A4295600EAA247 /* SausageMakerHelper */,
+				8AB4350623A4295800EAA247 /* SausageMakerHelperTests */,
+				8AB4351123A4295800EAA247 /* SausageMakerHelperUITests */,
+				8AB434EB23A4295600EAA247 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8AB434EB23A4295600EAA247 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AB434EA23A4295600EAA247 /* SausageMakerHelper.app */,
+				8AB4350323A4295800EAA247 /* SausageMakerHelperTests.xctest */,
+				8AB4350E23A4295800EAA247 /* SausageMakerHelperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AB434EC23A4295600EAA247 /* SausageMakerHelper */ = {
+			isa = PBXGroup;
+			children = (
+				8AB434ED23A4295600EAA247 /* AppDelegate.swift */,
+				8AB434EF23A4295600EAA247 /* SceneDelegate.swift */,
+				8AB434F423A4295600EAA247 /* ContentView.swift */,
+				8AB434F623A4295800EAA247 /* Assets.xcassets */,
+				8AB434FB23A4295800EAA247 /* LaunchScreen.storyboard */,
+				8AB434FE23A4295800EAA247 /* Info.plist */,
+				8AB434F123A4295600EAA247 /* SausageMakerHelper.xcdatamodeld */,
+				8AB434F823A4295800EAA247 /* Preview Content */,
+			);
+			path = SausageMakerHelper;
+			sourceTree = "<group>";
+		};
+		8AB434F823A4295800EAA247 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8AB434F923A4295800EAA247 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8AB4350623A4295800EAA247 /* SausageMakerHelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				8AB4350723A4295800EAA247 /* SausageMakerHelperTests.swift */,
+				8AB4350923A4295800EAA247 /* Info.plist */,
+			);
+			path = SausageMakerHelperTests;
+			sourceTree = "<group>";
+		};
+		8AB4351123A4295800EAA247 /* SausageMakerHelperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8AB4351223A4295800EAA247 /* SausageMakerHelperUITests.swift */,
+				8AB4351423A4295800EAA247 /* Info.plist */,
+			);
+			path = SausageMakerHelperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8AB434E923A4295600EAA247 /* SausageMakerHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AB4351723A4295800EAA247 /* Build configuration list for PBXNativeTarget "SausageMakerHelper" */;
+			buildPhases = (
+				8AB434E623A4295600EAA247 /* Sources */,
+				8AB434E723A4295600EAA247 /* Frameworks */,
+				8AB434E823A4295600EAA247 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SausageMakerHelper;
+			productName = SausageMakerHelper;
+			productReference = 8AB434EA23A4295600EAA247 /* SausageMakerHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8AB4350223A4295800EAA247 /* SausageMakerHelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AB4351A23A4295800EAA247 /* Build configuration list for PBXNativeTarget "SausageMakerHelperTests" */;
+			buildPhases = (
+				8AB434FF23A4295800EAA247 /* Sources */,
+				8AB4350023A4295800EAA247 /* Frameworks */,
+				8AB4350123A4295800EAA247 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AB4350523A4295800EAA247 /* PBXTargetDependency */,
+			);
+			name = SausageMakerHelperTests;
+			productName = SausageMakerHelperTests;
+			productReference = 8AB4350323A4295800EAA247 /* SausageMakerHelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8AB4350D23A4295800EAA247 /* SausageMakerHelperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AB4351D23A4295800EAA247 /* Build configuration list for PBXNativeTarget "SausageMakerHelperUITests" */;
+			buildPhases = (
+				8AB4350A23A4295800EAA247 /* Sources */,
+				8AB4350B23A4295800EAA247 /* Frameworks */,
+				8AB4350C23A4295800EAA247 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AB4351023A4295800EAA247 /* PBXTargetDependency */,
+			);
+			name = SausageMakerHelperUITests;
+			productName = SausageMakerHelperUITests;
+			productReference = 8AB4350E23A4295800EAA247 /* SausageMakerHelperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AB434E223A4295600EAA247 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = ru.cadovnikxyan;
+				TargetAttributes = {
+					8AB434E923A4295600EAA247 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					8AB4350223A4295800EAA247 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 8AB434E923A4295600EAA247;
+					};
+					8AB4350D23A4295800EAA247 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 8AB434E923A4295600EAA247;
+					};
+				};
+			};
+			buildConfigurationList = 8AB434E523A4295600EAA247 /* Build configuration list for PBXProject "SausageMakerHelper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8AB434E123A4295600EAA247;
+			productRefGroup = 8AB434EB23A4295600EAA247 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AB434E923A4295600EAA247 /* SausageMakerHelper */,
+				8AB4350223A4295800EAA247 /* SausageMakerHelperTests */,
+				8AB4350D23A4295800EAA247 /* SausageMakerHelperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AB434E823A4295600EAA247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AB434FD23A4295800EAA247 /* LaunchScreen.storyboard in Resources */,
+				8AB434FA23A4295800EAA247 /* Preview Assets.xcassets in Resources */,
+				8AB434F723A4295800EAA247 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AB4350123A4295800EAA247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AB4350C23A4295800EAA247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AB434E623A4295600EAA247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AB434EE23A4295600EAA247 /* AppDelegate.swift in Sources */,
+				8AB434F323A4295600EAA247 /* SausageMakerHelper.xcdatamodeld in Sources */,
+				8AB434F523A4295600EAA247 /* ContentView.swift in Sources */,
+				8AB434F023A4295600EAA247 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AB434FF23A4295800EAA247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AB4350823A4295800EAA247 /* SausageMakerHelperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AB4350A23A4295800EAA247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AB4351323A4295800EAA247 /* SausageMakerHelperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8AB4350523A4295800EAA247 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AB434E923A4295600EAA247 /* SausageMakerHelper */;
+			targetProxy = 8AB4350423A4295800EAA247 /* PBXContainerItemProxy */;
+		};
+		8AB4351023A4295800EAA247 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AB434E923A4295600EAA247 /* SausageMakerHelper */;
+			targetProxy = 8AB4350F23A4295800EAA247 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8AB434FB23A4295800EAA247 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AB434FC23A4295800EAA247 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8AB4351523A4295800EAA247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8AB4351623A4295800EAA247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8AB4351823A4295800EAA247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SausageMakerHelper/Preview Content\"";
+				DEVELOPMENT_TEAM = HN7MBNVM34;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SausageMakerHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.cadovnikxyan.SausageMakerHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8AB4351923A4295800EAA247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SausageMakerHelper/Preview Content\"";
+				DEVELOPMENT_TEAM = HN7MBNVM34;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SausageMakerHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.cadovnikxyan.SausageMakerHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8AB4351B23A4295800EAA247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HN7MBNVM34;
+				INFOPLIST_FILE = SausageMakerHelperTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.cadovnikxyan.SausageMakerHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SausageMakerHelper.app/SausageMakerHelper";
+			};
+			name = Debug;
+		};
+		8AB4351C23A4295800EAA247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HN7MBNVM34;
+				INFOPLIST_FILE = SausageMakerHelperTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.cadovnikxyan.SausageMakerHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SausageMakerHelper.app/SausageMakerHelper";
+			};
+			name = Release;
+		};
+		8AB4351E23A4295800EAA247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HN7MBNVM34;
+				INFOPLIST_FILE = SausageMakerHelperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.cadovnikxyan.SausageMakerHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SausageMakerHelper;
+			};
+			name = Debug;
+		};
+		8AB4351F23A4295800EAA247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HN7MBNVM34;
+				INFOPLIST_FILE = SausageMakerHelperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.cadovnikxyan.SausageMakerHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SausageMakerHelper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AB434E523A4295600EAA247 /* Build configuration list for PBXProject "SausageMakerHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AB4351523A4295800EAA247 /* Debug */,
+				8AB4351623A4295800EAA247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AB4351723A4295800EAA247 /* Build configuration list for PBXNativeTarget "SausageMakerHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AB4351823A4295800EAA247 /* Debug */,
+				8AB4351923A4295800EAA247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AB4351A23A4295800EAA247 /* Build configuration list for PBXNativeTarget "SausageMakerHelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AB4351B23A4295800EAA247 /* Debug */,
+				8AB4351C23A4295800EAA247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AB4351D23A4295800EAA247 /* Build configuration list for PBXNativeTarget "SausageMakerHelperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AB4351E23A4295800EAA247 /* Debug */,
+				8AB4351F23A4295800EAA247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8AB434F123A4295600EAA247 /* SausageMakerHelper.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8AB434F223A4295600EAA247 /* SausageMakerHelper.xcdatamodel */,
+			);
+			currentVersion = 8AB434F223A4295600EAA247 /* SausageMakerHelper.xcdatamodel */;
+			path = SausageMakerHelper.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8AB434E223A4295600EAA247 /* Project object */;
+}
